@@ -25,4 +25,4 @@ jobs:
           npm run test
         env:
           CI: true
-          API_KEY_TMDB: ${{ secret.API_KEY_TMDB }}
+          API_KEY_TMDB: ${{ secrets.API_KEY_TMDB }}
